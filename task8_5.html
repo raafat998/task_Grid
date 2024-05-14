@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    
+.container{
+       
+        
+        width:100%; /* عرض الكونتينر*/
+        height: 650px; /* ارتفاع الكونتينر */
+
+        display: grid;
+        grid-template-columns: repeat(60 , 1fr);
+        grid-template-rows: repeat(6,1fr)2fr;
+        column-gap: 0.5%;
+        row-gap: 1%;
+        padding: 1%;
+    }
+
+
+    .child{
+        background-color: rgb(71, 177, 252);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: aliceblue;
+
+        
+    }
+   .header{
+    grid-column: span 60;
+   }
+   .box--a{
+    grid-column: span 30;
+   }
+   .box--b{
+    grid-column: span 20;
+   }
+   .box--c{
+    grid-column: span 15;
+   }
+   .box--d{
+    grid-column: span 10;
+   }
+   .nav{
+    grid-column: span 60;
+    grid-row: span 2;
+    font-size: larger;
+    color: white;
+   }
+   
+    
+    </style>
+</head>
+<body>
+  
+
+    <section class="container">
+
+       
+       
+        
+
+        <section class="child header"><h1 >
+            60 GS is starter kit for the css Grid
+        </h1></section>
+
+        <section class="child box--a"><h1>1</h1></section>
+        <section class="child box--a"><h1 >2</h1></section>
+
+        <section class="child box--b"><h1 >1</h1></section>
+        <section class="child box--b"><h1 >2</h1></section>
+        <section class="child box--b"><h1 >3</h1></section>
+
+        <section class="child box--c"><h1 >1</h1></section>
+        <section class="child box--c"><h1 >2</h1></section>
+        <section class="child box--c"><h1 >3</h1></section>
+        <section class="child box--c"><h1 >5</h1></section>
+
+        <section class="child box--d"><h1 >1</h1></section>
+        <section class="child box--d"><h1 >2</h1></section>
+        <section class="child box--d"><h1 >3</h1></section>
+        <section class="child box--d"><h1 >4</h1></section>
+        <section class="child box--d"><h1 >5</h1></section>
+        <section class="child box--d"><h1 >6</h1></section>
+
+      
+
+        <section class="child nav">
+            <center>
+            <p >
+            Why 60? <br>
+            because the number 60 is dividable by 2,3,4,5 and 6
+
+             </p></section>
+            </center>
+    </section>
+    <section class="container_secound">
+        <!-- <section class="child_secound c--1"><h1 >1</h1></section>
+        <section class="child_secound c--2"><h1 >2</h1></section>
+        <section class="child c--3"><h1 >3</h1></section>
+        <section class="child c--4"><h1 >4</h1></section>
+
+        <section class="child c--11"><h1 >1</h1></section>
+        <section class="child c--12"><h1 >2</h1></section>
+        <section class="child c--13"><h1 >3</h1></section>
+        <section class="child c--14"><h1 >4</h1></section>
+        <section class="child c--15"><h1 >5</h1></section>
+
+        <section class="child c--16"><h1 >1</h1></section>
+        <section class="child c--17"><h1 >2</h1></section>
+        <section class="child c--18"><h1 >3</h1></section>
+        <section class="child c--19"><h1 >4</h1></section>
+        <section class="child c--20"><h1 >5</h1></section>
+        <section class="child c--21"><h1 >6</h1></section> -->
+        
+    </section>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    .container{
+        margin: 30px;
+        display: grid;
+        gap: 3px;
+        border: 2px dashed white;
+        padding: 5px;
+        height: 500px;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .child{
+        background-color: yellow;
+        text-align: center;
+        line-height: 100px;
+        
+        
+
+    }
+    .child:nth-child(1){order:8;}
+    .child:nth-child(2){order:2;}
+    .child:nth-child(3){order:1;}
+    .child:nth-child(4){order:3;}
+    .child:nth-child(5){order:7;}
+    .child:nth-child(6){order:4;}
+    .child:nth-child(7){order:5;}
+    .child:nth-child(8){order:6;}
+    
+
+    </style>
+</head>
+<body>
+    <h1>What do you think !</h1>
+
+    <section class="container">
+
+        <section class="child c--1"><h1 style="margin-top: 25%; ">1</h1></section>
+        <section class="child c--2"><h1 style="margin-top: 25%; ">2</h1></section>
+        <section class="child c--3"><h1 style="margin-top: 25%; ">3</h1></section>
+        <section class="child c--4"><h1 style="margin-top: 25%; ">4</h1></section>
+        <section class="child c--6"><h1 style="margin-top: 25%; ">5</h1></section>
+        <section class="child c--7"><h1 style="margin-top: 25%; ">6</h1></section>
+        <section class="child c--8"><h1 style="margin-top: 25%; ">7</h1></section>
+        <section class="child c--9"><h1 style="margin-top: 25%; ">8</h1></section>
+
+
+
+
+
+
+
+
+    </section>
+</body>
+</html>

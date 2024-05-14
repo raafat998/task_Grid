@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    .container{
+        margin: 1px;
+        display: grid;
+        gap: 10px;
+        border: 2px dashed white;
+        padding: 5px;
+        height: 700px;
+       grid-template-rows: 140px 300px 180px;
+        grid-template-columns: auto 500px;
+       
+        
+    }
+    .child{
+        
+        text-align: center;
+        line-height: 100px;
+        
+        
+
+    }
+    
+    
+
+    </style>
+</head>
+<body>
+
+
+    <section class="container">
+
+        <section style="background-color: black; grid-column: span 2;" class="child c--1"><h1 style="margin-top: 25%; "></h1></section>
+        <section style="background-color: orange;" class="child c--2"><h1 style="margin-top: 25%;"></h1></section>
+        <section style="background-color: rgb(62, 156, 39);" class="child c--2"><h1 style="margin-top: 25%;"></h1></section>
+        <section style="background-color: blue; grid-column: span 2; "class="child c--3"><h1 style="margin-top: 25%; "></h1></section>
+       
+
+
+
+
+
+
+    </section>
+</body>
+</html>
